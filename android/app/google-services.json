@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "750567903683",
+    "firebase_url": "https://bring2book.firebaseio.com",
+    "project_id": "bring2book",
+    "storage_bucket": "bring2book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750567903683:android:6d7ed3fa0edfb6630d2d76",
+        "android_client_info": {
+          "package_name": "com.bring2book.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750567903683-3ihll7v6pvg9ktames2m3u0uor7rds9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "47bdd47edf1f291fc0cbac1130ede6aa00a550b3"
+          }
+        },
+        {
+          "client_id": "750567903683-41mrnn6mk1kto3d88sg3ao8usu36s9uo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "5660c022ed6fa905ae5bc839ec1717cacac096e0"
+          }
+        },
+        {
+          "client_id": "750567903683-69hgbcqvb37ps7ffjjf72s93pv8dm0kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "55512b6caf70f8676d1313e186b595d69625bca0"
+          }
+        },
+        {
+          "client_id": "750567903683-74m1bhlvffo9k2ah673t1r6jf3068f9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "cc7784eec707e1dcb42891a5729572e10e0e3968"
+          }
+        },
+        {
+          "client_id": "750567903683-8blumklpcj43euupen3aj135lkbvse62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "1d38ddc914fa9b5d39ac90dfb9b42097f20709a9"
+          }
+        },
+        {
+          "client_id": "750567903683-lu1sm79gnhop3m659u7gds1e8r1ivdhi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "ac842a2e070798818aa4518c009f0b46e6f50ef0"
+          }
+        },
+        {
+          "client_id": "750567903683-m1n1qluhbtr9nepbbc2vv3qsf1dm32qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "4487031cc2713f02ab16e72d205a3b391d762633"
+          }
+        },
+        {
+          "client_id": "750567903683-s6bna6ij7mvivvnabfrh0vvu8ehnet96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "4899791aa3f210398992d9d3ff17c7c50e77ce54"
+          }
+        },
+        {
+          "client_id": "750567903683-tnp5ks5cfchuu30bsj6gkoravmr3fvvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "f652837f4d257e55a314d25e76bb806652afed85"
+          }
+        },
+        {
+          "client_id": "750567903683-ttfn8nsripl6r80dlbjldhbf16c4hpla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bring2book.app",
+            "certificate_hash": "317bf109ff34d5147aa1bb66aff063437e62327b"
+          }
+        },
+        {
+          "client_id": "750567903683-e8qb0and7heg5811oij21qeumnkae4d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0vR5dznvTrHMwcSXGLe_dV5zLvIXV_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750567903683-e8qb0and7heg5811oij21qeumnkae4d8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "750567903683-n9j008g9a8u4okntosfhtlk1nd9o5ae5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bring2book.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
