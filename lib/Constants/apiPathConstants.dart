@@ -2,8 +2,8 @@ class ApiNames {
   // static const API_POST_BASE_URL = 'https://api.1voices.com/';
   //static const API_POST_BASE_URL = 'https://bring2book-api.techlabz.in/';
   //static const API_POST_DUMMY_URL = 'https://bring2book-api.techlabz.in/';
-  static const API_POST_BASE_URL = 'http://54.205.242.67:3000/';
-  static const API_POST_DUMMY_URL = 'http://54.205.242.67:3000/';
+  static const API_POST_BASE_URL = 'https://api.1voices.app/';
+  static const API_POST_DUMMY_URL = 'https://api.1voices.app/';
   static const LOGIN = "login";
   static const registration = "userRegiatration";
   static const updateLatLng = "updateLatLng";

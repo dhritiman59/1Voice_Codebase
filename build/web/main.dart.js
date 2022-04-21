@@ -51685,7 +51685,7 @@ var $async$xl=A.o(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:j=null
 p=4
 s=7
-return A.n(A.aRV(A.fg("http://54.205.242.67:3000/"+a,0,null),null),$async$xl)
+return A.n(A.aRV(A.fg("https://api.1voices.app/"+a,0,null),null),$async$xl)
 case 7:l=c
 j=m.lu(l)
 p=2
@@ -51716,7 +51716,7 @@ k=A.aD(J.X(l.a,"auth_token"))
 A.f(b)
 g=A.aVF(null,b).f
 j=g==null?"":g
-i=B.d.R("http://54.205.242.67:3000/"+a+"?",j)
+i=B.d.R("https://api.1voices.app/"+a+"?",j)
 A.f("getparmurl"+A.d(i))
 f=t.X
 s=8
@@ -51747,7 +51747,7 @@ s=p}while(true)switch(s){case 0:A.f(a)
 A.f(b)
 l=null
 p=4
-j=A.fg("http://54.205.242.67:3000/"+b,0,null)
+j=A.fg("https://api.1voices.app/"+b,0,null)
 i=t.X
 i=A.i(["Content-Type","application/json; charset=UTF-8"],i,i)
 s=7
@@ -51778,7 +51778,7 @@ s=p}while(true)switch(s){case 0:A.f(a)
 A.f(b)
 l=null
 p=4
-j=A.fg("http://54.205.242.67:3000/"+b,0,null)
+j=A.fg("https://api.1voices.app/"+b,0,null)
 i=t.X
 i=A.i(["Content-Type","application/json; charset=UTF-8","refreshtoken","MY_KEY"],i,i)
 s=7
@@ -51810,7 +51810,7 @@ l=null
 p=4
 j=t.X
 s=7
-return A.n(A.aRV(A.fg("http://54.205.242.67:3000/"+b,0,null),A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(c)],j,j)),$async$h2)
+return A.n(A.aRV(A.fg("https://api.1voices.app/"+b,0,null),A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(c)],j,j)),$async$h2)
 case 7:k=e
 l=m.lu(k)
 A.f(l)
@@ -51834,7 +51834,7 @@ dk(a,b){return this.au9(a,b)},
 au9(a,b){var s=0,r=A.t(t.z),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$dk=A.o(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:A.f(a)
-A.f("http://54.205.242.67:3000/"+b)
+A.f("https://api.1voices.app/"+b)
 l=null
 p=4
 s=7
@@ -51842,7 +51842,7 @@ return A.n(A.bP(),$async$dk)
 case 7:k=d
 j=A.aD(J.X(k.a,"auth_token"))
 A.f(j)
-h=A.fg("http://54.205.242.67:3000/"+b,0,null)
+h=A.fg("https://api.1voices.app/"+b,0,null)
 g=t.X
 g=A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(j)],g,g)
 s=8
@@ -51875,7 +51875,7 @@ s=3
 return A.n(A.bP(),$async$j5)
 case 3:a9=b1.aD(b2.X(b7.a,"auth_token"))
 p=5
-m=A.fg("http://54.205.242.67:3000/"+b5,0,null)
+m=A.fg("https://api.1voices.app/"+b5,0,null)
 l=A.bex("POST",m)
 for(a1=b3.ghd(b3),a1=a1.ga7(a1);a1.v();){k=a1.gH(a1)
 l.y.p(0,J.aTo(k),J.hG(k))
@@ -51958,7 +51958,7 @@ A.f(b)
 A.f(c)
 l=null
 p=5
-j=A.fg("http://54.205.242.67:3000/"+c,0,null)
+j=A.fg("https://api.1voices.app/"+c,0,null)
 i=t.X
 i=A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(g)],i,i)
 s=8
@@ -51993,7 +51993,7 @@ case 7:l=c
 k=A.aD(J.X(l.a,"auth_token"))
 i=t.X
 s=8
-return A.n(A.aSB(A.fg("http://54.205.242.67:3000/"+a,0,null),null,A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(k)],i,i)),$async$wG)
+return A.n(A.aSB(A.fg("https://api.1voices.app/"+a,0,null),null,A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(k)],i,i)),$async$wG)
 case 8:j=c
 g=m.lu(j)
 p=2
@@ -52020,7 +52020,7 @@ l=null
 p=4
 j=t.X
 s=7
-return A.n(A.b4K(A.fg("http://54.205.242.67:3000/"+b,0,null),A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(c)],j,j)),$async$AC)
+return A.n(A.b4K(A.fg("https://api.1voices.app/"+b,0,null),A.i(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(c)],j,j)),$async$AC)
 case 7:k=e
 l=m.lu(k)
 A.f(l)
