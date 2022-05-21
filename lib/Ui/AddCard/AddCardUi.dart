@@ -5,6 +5,7 @@ import 'package:bring2book/Ui/base/baseWidgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart' as creditCard;
 
+
 import 'credit_card_form.dart';
 
 class AddCardUi extends StatefulWidget {
@@ -92,13 +93,14 @@ class AddCardUiState extends State<AddCardUi> {
                 )
               ],
             ),
-            creditCard.CreditCardWidget(
-              cardNumber: cardNumber,
-              expiryDate: expiryDate,
-              cardHolderName: cardHolderName,
-              cvvCode: cvvCode,
-              showBackView: isCvvFocused,
-            ),
+    //Closed on sat 21 may due to exception
+           // creditCard.CreditCardWidget(
+             // cardNumber: cardNumber,
+              //expiryDate: expiryDate,
+              //cardHolderName: cardHolderName,
+              //cvvCode: cvvCode,
+              //showBackView: isCvvFocused,
+            //),
             // Expanded(
             //   child:
             // SingleChildScrollView(
