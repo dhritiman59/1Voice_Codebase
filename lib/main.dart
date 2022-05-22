@@ -7,6 +7,7 @@ import 'Ui/splash/SplashPage.dart';
 FirebaseOptions options = const FirebaseOptions(
   apiKey: "AIzaSyCPJul9Lcbk-2UTzwUzSybIYUilVr8jyic",
   authDomain: "bring2book.firebaseapp.com",
+  //authDomain: "https://www.1voices.app/#/",
   databaseURL: "https://bring2book.firebaseio.com",
   projectId: "bring2book",
   storageBucket: "bring2book.appspot.com",
