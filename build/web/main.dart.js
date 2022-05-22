@@ -8972,7 +8972,7 @@ if(b5.h(b7,"userId")!=null)b5.h(b7,"userId")
 if(b5.h(b7,a4)!=null)b5.h(b7,a4)
 if(b5.h(b7,"users")!=null){m=b5.h(b7,"users")
 l=J.E(m)
-l.h(m,a5)==null
+if(l.h(m,a5)!=null)l.h(m,a5)
 if(l.h(m,a6)!=null)l.h(m,a6)
 if(l.h(m,"emailId")!=null)l.h(m,"emailId")}if(b5.h(b7,a7)!=null){m=b5.h(b7,a7)
 l=J.E(m)
@@ -13434,48 +13434,46 @@ this.a=c},
 ahl:function ahl(a){this.a=a},
 n8:function n8(){},
 ac7:function ac7(){},
-aUA(a){var s,r,q,p="notification",o="android",n="imageUrl",m="sound",l="apple",k="web",j="sentTime",i=a.h(0,"senderId")
+aUA(a){var s,r="notification",q="android",p="imageUrl",o="sound",n="apple",m="web",l="sentTime",k=a.h(0,"senderId")
 a.h(0,"category")
 a.h(0,"collapseKey")
 a.h(0,"contentAvailable")
-s=t.N
-r=t.z
-if(a.h(0,"data")!=null)A.hR(a.h(0,"data"),s,r)
+if(a.h(0,"data")!=null)A.hR(a.h(0,"data"),t.N,t.z)
 a.h(0,"from")
-q=a.h(0,"messageId")
-if(q!=null)J.B(q)
+s=a.h(0,"messageId")
+if(s!=null)J.B(s)
 a.h(0,"messageType")
 a.h(0,"mutableContent")
-if(a.h(0,p)!=null){s=A.hR(a.h(0,p),s,r)
-if(s.h(0,o)!=null){J.X(s.h(0,o),"channelId")
-J.X(s.h(0,o),"clickAction")
-J.X(s.h(0,o),"color")
-J.X(s.h(0,o),"count")
-J.X(s.h(0,o),n)
-J.X(s.h(0,o),"link")
-A.bkC(J.X(s.h(0,o),"priority"))
-J.X(s.h(0,o),"smallIcon")
-J.X(s.h(0,o),m)
-J.X(s.h(0,o),"ticker")
-J.X(s.h(0,o),"tag")
-A.bkD(J.X(s.h(0,o),"visibility"))}if(s.h(0,l)!=null){J.X(s.h(0,l),"badge")
-J.X(s.h(0,l),"subtitle")
-A.aVM(J.X(s.h(0,l),"subtitleLocArgs"))
-J.X(s.h(0,l),"subtitleLocKey")
-J.X(s.h(0,l),n)
-if(J.X(s.h(0,l),m)!=null){J.X(J.X(s.h(0,l),m),"critical")
-J.X(J.X(s.h(0,l),m),"name")
-J.X(J.X(s.h(0,l),m),"volume")}}if(s.h(0,k)!=null){J.X(s.h(0,k),"analyticsLabel")
-J.X(s.h(0,k),"image")
-J.X(s.h(0,k),"link")}s.h(0,"title")
+if(a.h(0,r)!=null){s=A.hR(a.h(0,r),t.N,t.z)
+if(s.h(0,q)!=null){J.X(s.h(0,q),"channelId")
+J.X(s.h(0,q),"clickAction")
+J.X(s.h(0,q),"color")
+J.X(s.h(0,q),"count")
+J.X(s.h(0,q),p)
+J.X(s.h(0,q),"link")
+A.bkC(J.X(s.h(0,q),"priority"))
+J.X(s.h(0,q),"smallIcon")
+J.X(s.h(0,q),o)
+J.X(s.h(0,q),"ticker")
+J.X(s.h(0,q),"tag")
+A.bkD(J.X(s.h(0,q),"visibility"))}if(s.h(0,n)!=null){J.X(s.h(0,n),"badge")
+J.X(s.h(0,n),"subtitle")
+A.aVM(J.X(s.h(0,n),"subtitleLocArgs"))
+J.X(s.h(0,n),"subtitleLocKey")
+J.X(s.h(0,n),p)
+if(J.X(s.h(0,n),o)!=null){J.X(J.X(s.h(0,n),o),"critical")
+J.X(J.X(s.h(0,n),o),"name")
+J.X(J.X(s.h(0,n),o),"volume")}}if(s.h(0,m)!=null){J.X(s.h(0,m),"analyticsLabel")
+J.X(s.h(0,m),"image")
+J.X(s.h(0,m),"link")}s.h(0,"title")
 A.aVM(s.h(0,"titleLocArgs"))
 s.h(0,"titleLocKey")
 s.h(0,"body")
 A.aVM(s.h(0,"bodyLocArgs"))
-s.h(0,"bodyLocKey")}if(a.h(0,j)!=null)A.hN(A.bo(J.B(a.h(0,j)),null),!1)
+s.h(0,"bodyLocKey")}if(a.h(0,l)!=null)A.hN(A.bo(J.B(a.h(0,l)),null),!1)
 a.h(0,"threadId")
 a.h(0,"ttl")
-return new A.tQ(i)},
+return new A.tQ(k)},
 tQ:function tQ(a){this.a=a},
 aVM(a){if(a==null)return A.a([],t.s)
 return A.az(a,!0,t.N)},
@@ -35576,7 +35574,6 @@ d2(a){this.a.pop()},
 TU(a,b){if(!$.b0B){$.b0B=!0
 $.cY().$1("The performance overlay isn't supported on the web")}},
 TV(a,b,c,d){var s,r
-c
 t.S9.a(b)
 s=b.a.b
 r=new A.hl(null)
@@ -108821,3 +108818,4 @@ a(b.target)}for(var r=0;r<s.length;++r)s[r].addEventListener("load",onLoad,false
 var s=A.aS2
 if(typeof dartMainRunner==="function")dartMainRunner(s,[])
 else s([])})})()
+//# sourceMappingURL=main.dart.js.map
